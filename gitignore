@@ -1,0 +1,208 @@
+# .gitignore for Food Nutrition Analysis Project
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ============================================
+# Data Files (Large files - don't commit!)
+# ============================================
+# Raw dataset
+data/*.tsv
+data/*.csv
+data/*.json
+data/*.parquet
+data/en.openfoodfacts.org.products.tsv
+
+# Processed data
+data/processed/*.csv
+data/processed/*.pkl
+data/processed/*.parquet
+
+# Kaggle datasets
+*.zip
+kaggle_data/
+
+# ============================================
+# Model Files
+# ============================================
+# Trained models (can be large)
+outputs/models/*.pkl
+outputs/models/*.h5
+outputs/models/*.pt
+outputs/models/*.pth
+*.model
+*.weights
+
+# ============================================
+# Output Files
+# ============================================
+# Generated visualizations
+outputs/visualizations/*.png
+outputs/visualizations/*.jpg
+outputs/visualizations/*.pdf
+outputs/visualizations/*.svg
+
+# Results and reports
+outputs/results/*.csv
+outputs/results/*.xlsx
+outputs/results/*.html
+
+# Logs
+*.log
+logs/
+*.out
+
+# ============================================
+# Kaggle Credentials (NEVER COMMIT!)
+# ============================================
+kaggle.json
+.kaggle/
+*kaggle.json
+credentials.json
+
+# ============================================
+# IDE and Editors
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ============================================
+# Operating System
+# ============================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# ============================================
+# Project Specific
+# ============================================
+# Scratch notebooks
+scratch/
+experiments/
+sandbox/
+
+# Old versions
+old/
+archive/
+backup/
+
+# Private notes
+NOTES.txt
+TODO.txt
+private/
