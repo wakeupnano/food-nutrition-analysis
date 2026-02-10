@@ -7,7 +7,7 @@
 
 > Big Data analytics project analyzing nutritional quality of 300,000+ food products from the Open Food Facts database
 
-## 🎯Project Overview
+## Project Overview
 
 This project implements a comprehensive nutrition analysis system that processes and analyzes over 300,000 food products from the Open Food Facts database. Using advanced data processing, feature engineering, and machine learning techniques, the system provides nutritional quality assessments, product classifications, and actionable insights for consumers and manufacturers.
 
@@ -54,7 +54,7 @@ This project implements a comprehensive nutrition analysis system that processes
 | **Data Source** | Kaggle API, Open Food Facts |
 | **Development** | Jupyter Notebook, Python 3.8+ |
 
-## 📊 Dataset Information
+## Dataset Information
 
 **Source:** [Open Food Facts - World Food Facts Dataset](https://www.kaggle.com/datasets/openfoodfacts/world-food-facts)
 
@@ -70,7 +70,7 @@ This project implements a comprehensive nutrition analysis system that processes
 - Product categories and brands
 - Nutrition grades and scores
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -122,7 +122,7 @@ If you prefer to download the dataset manually:
 3. Place in `data/` directory
 4. Update the file path in the notebook
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 food-nutrition-analysis/
@@ -138,7 +138,7 @@ food-nutrition-analysis/
 │   └── .gitkeep                                # Keep directory in git
 ```
 
-## 💡 Methodology
+## Methodology
 
 ### Part 1: Data Loading and Exploration
 
@@ -208,7 +208,7 @@ This project demonstrates practical application of big data analytics concepts:
 - Statistical analysis and visualization
 - Reproducible data science workflows
 
-## 🔍 Sample Analysis
+## Sample Analysis
 
 ### NRF9.3 Scoring Implementation
 
